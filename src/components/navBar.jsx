@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
         <nav className="fixed pr-6">
             <div className="pl-6 pt-3"> 
-                <Hamburger color="#4FD1C5" toggled={isOpen} toggle={setOpen} />
+                <Hamburger color="#D3D3D3" toggled={isOpen} toggle={setOpen} />
             </div>
             <div
                 className={`absolute mt-16 text-black font-bold flex flex-col justify-center transform transition-transform duration-300 ${
