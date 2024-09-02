@@ -6,8 +6,10 @@ const NavBar = () => {
     const [isOpen, setOpen] = useState(false);
 
     return (
-        <nav className="fixed">
-            <Hamburger color="#4FD1C5" toggled={isOpen} toggle={setOpen} />
+        <nav className="fixed pr-6">
+            <div className="pl-6 pt-3"> 
+                <Hamburger color="#4FD1C5" toggled={isOpen} toggle={setOpen} />
+            </div>
             <div
                 className={`absolute mt-16 text-black font-bold flex flex-col justify-center transform transition-transform duration-300 ${
                     isOpen ? 'translate-x-0' : '-translate-x-full'
