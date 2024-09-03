@@ -10,6 +10,9 @@ export default {
         '15xl': '12rem', // 128px
         '11xl': '9rem', // 144px
       },
+      fontFamily: {
+        pixelify: ['"Pixelify Sans"', 'sans-serif'], 
+      },
     },
   },
   plugins: [],
