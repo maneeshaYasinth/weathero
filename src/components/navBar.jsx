@@ -6,7 +6,7 @@ const NavBar = () => {
     const [isOpen, setOpen] = useState(false);
 
     return (
-        <nav className="fixed pr-6">
+        <nav className="fixed pr-6 z-50">
             <div className="pl-6 pt-3"> 
                 <Hamburger color="#D3D3D3" toggled={isOpen} toggle={setOpen} />
             </div>
